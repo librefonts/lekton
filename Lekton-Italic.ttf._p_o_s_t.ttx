@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont ttLibVersion="2.4">
+
+  <post>
+    <formatType value="2.0"/>
+    <italicAngle value="-9.30000305176"/>
+    <underlinePosition value="-75"/>
+    <underlineThickness value="50"/>
+    <isFixedPitch value="0"/>
+    <minMemType42 value="0"/>
+    <maxMemType42 value="0"/>
+    <minMemType1 value="0"/>
+    <maxMemType1 value="0"/>
+    <psNames>
+      <!-- This file uses unique glyph names based on the information
+           found in the 'post' table. Since these names might not be unique,
+           we have to invent artificial names in case of clashes. In order to
+           be able to retain the original information, we need a name to
+           ps name mapping for those cases where they differ. That's what
+           you see below.
+            -->
+    </psNames>
+    <extraNames>
+      <!-- following are the name that are not taken from the standard Mac glyph order -->
+      <psName name="Euro"/>
+      <psName name="CR"/>
+      <psName name="CR.001"/>
+      <psName name="CR.002"/>
+      <psName name="CR.003"/>
+      <psName name="CR.004"/>
+      <psName name="CR.005"/>
+      <psName name="CR.006"/>
+      <psName name="CR.007"/>
+      <psName name="CR.008"/>
+      <psName name="CR.009"/>
+      <psName name="CR.010"/>
+      <psName name="_31"/>
+      <psName name=".notdef.001"/>
+      <psName name="a.001"/>
+    </extraNames>
+  </post>
+
+</ttFont>

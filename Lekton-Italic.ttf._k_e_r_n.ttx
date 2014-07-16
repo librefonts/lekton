@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont ttLibVersion="2.4">
+
+  <kern>
+    <version value="0"/>
+    <kernsubtable coverage="1" format="0">
+      <pair l="C" r="c" v="-6"/>
+      <pair l="C" r="hyphen" v="-9"/>
+      <pair l="E" r="T" v="-6"/>
+      <pair l="E" r="c" v="-13"/>
+      <pair l="E" r="colon" v="-3"/>
+      <pair l="E" r="comma" v="-6"/>
+      <pair l="E" r="hyphen" v="-9"/>
+      <pair l="F" r="c" v="-11"/>
+      <pair l="F" r="colon" v="-13"/>
+      <pair l="F" r="comma" v="-25"/>
+      <pair l="F" r="hyphen" v="-9"/>
+      <pair l="F" r="s" v="-6"/>
+      <pair l="F" r="u" v="-6"/>
+      <pair l="F" r="x" v="-6"/>
+      <pair l="F" r="z" v="-6"/>
+      <pair l="K" r="S" v="-6"/>
+      <pair l="K" r="T" v="-6"/>
+      <pair l="K" r="U" v="-3"/>
+      <pair l="K" r="X" v="-3"/>
+      <pair l="K" r="Y" v="-3"/>
+      <pair l="K" r="Z" v="-3"/>
+      <pair l="K" r="c" v="-9"/>
+      <pair l="K" r="hyphen" v="-19"/>
+      <pair l="K" r="s" v="-6"/>
+      <pair l="K" r="u" v="-6"/>
+      <pair l="K" r="x" v="-3"/>
+      <pair l="K" r="z" v="-3"/>
+      <pair l="L" r="S" v="-3"/>
+      <pair l="L" r="T" v="-28"/>
+      <pair l="L" r="U" v="-6"/>
+      <pair l="L" r="Y" v="-35"/>
+      <pair l="L" r="hyphen" v="-25"/>
+      <pair l="S" r="Y" v="-9"/>
+      <pair l="S" r="comma" v="-6"/>
+      <pair l="S" r="hyphen" v="-3"/>
+      <pair l="T" r="c" v="-9"/>
+      <pair l="T" r="colon" v="-13"/>
+      <pair l="T" r="comma" v="-16"/>
+      <pair l="T" r="hyphen" v="-22"/>
+      <pair l="T" r="s" v="-6"/>
+      <pair l="T" r="x" v="-6"/>
+      <pair l="T" r="z" v="-6"/>
+      <pair l="U" r="comma" v="-9"/>
+      <pair l="X" r="S" v="-6"/>
+      <pair l="X" r="hyphen" v="-16"/>
+      <pair l="Y" r="c" v="-9"/>
+      <pair l="Y" r="colon" v="-13"/>
+      <pair l="Y" r="comma" v="-38"/>
+      <pair l="Y" r="hyphen" v="-32"/>
+      <pair l="Y" r="s" v="-6"/>
+      <pair l="Y" r="z" v="-9"/>
+      <pair l="Z" r="S" v="-6"/>
+      <pair l="Z" r="c" v="-6"/>
+      <pair l="Z" r="hyphen" v="-22"/>
+      <pair l="Z" r="s" v="-6"/>
+    </kernsubtable>
+  </kern>
+
+</ttFont>

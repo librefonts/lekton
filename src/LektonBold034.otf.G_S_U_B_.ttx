@@ -1,0 +1,1189 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont ttLibVersion="2.4">
+
+  <GSUB>
+    <Version value="1.0"/>
+    <ScriptList>
+      <!-- ScriptCount=1 -->
+      <ScriptRecord index="0">
+        <ScriptTag value="latn"/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="65535"/>
+            <!-- FeatureCount=16 -->
+            <FeatureIndex index="0" value="0"/>
+            <FeatureIndex index="1" value="1"/>
+            <FeatureIndex index="2" value="2"/>
+            <FeatureIndex index="3" value="4"/>
+            <FeatureIndex index="4" value="5"/>
+            <FeatureIndex index="5" value="6"/>
+            <FeatureIndex index="6" value="7"/>
+            <FeatureIndex index="7" value="8"/>
+            <FeatureIndex index="8" value="9"/>
+            <FeatureIndex index="9" value="10"/>
+            <FeatureIndex index="10" value="11"/>
+            <FeatureIndex index="11" value="12"/>
+            <FeatureIndex index="12" value="13"/>
+            <FeatureIndex index="13" value="14"/>
+            <FeatureIndex index="14" value="15"/>
+            <FeatureIndex index="15" value="16"/>
+          </DefaultLangSys>
+          <!-- LangSysCount=1 -->
+          <LangSysRecord index="0">
+            <LangSysTag value="TUR "/>
+            <LangSys>
+              <ReqFeatureIndex value="65535"/>
+              <!-- FeatureCount=1 -->
+              <FeatureIndex index="0" value="3"/>
+            </LangSys>
+          </LangSysRecord>
+        </Script>
+      </ScriptRecord>
+    </ScriptList>
+    <FeatureList>
+      <!-- FeatureCount=17 -->
+      <FeatureRecord index="0">
+        <FeatureTag value="calt"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="0"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="1">
+        <FeatureTag value="dlig"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="4"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="2">
+        <FeatureTag value="liga"/>
+        <Feature>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="5"/>
+          <LookupListIndex index="1" value="6"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="3">
+        <FeatureTag value="liga"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="6"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="4">
+        <FeatureTag value="onum"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="2"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="5">
+        <FeatureTag value="salt"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="1"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="6">
+        <FeatureTag value="smcp"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="3"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="7">
+        <FeatureTag value="ss01"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="9"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="8">
+        <FeatureTag value="ss02"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="10"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="9">
+        <FeatureTag value="ss03"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="11"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="10">
+        <FeatureTag value="ss04"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="12"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="11">
+        <FeatureTag value="ss05"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="13"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="12">
+        <FeatureTag value="ss06"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="14"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="13">
+        <FeatureTag value="ss07"/>
+        <Feature>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="15"/>
+          <LookupListIndex index="1" value="16"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="14">
+        <FeatureTag value="ss08"/>
+        <Feature>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="17"/>
+          <LookupListIndex index="1" value="18"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="15">
+        <FeatureTag value="swsh"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="8"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="16">
+        <FeatureTag value="titl"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="7"/>
+        </Feature>
+      </FeatureRecord>
+    </FeatureList>
+    <LookupList>
+      <!-- LookupCount=22 -->
+      <Lookup index="0">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="C" out="C.calt"/>
+          <Substitution in="J" out="J.calt"/>
+          <Substitution in="K" out="K.calt"/>
+          <Substitution in="Q" out="Q.calt"/>
+          <Substitution in="Thorn" out="Thorn.calt"/>
+          <Substitution in="V" out="V.calt"/>
+          <Substitution in="Z" out="Z.calt"/>
+          <Substitution in="ampersand" out="ampersand.calt"/>
+          <Substitution in="c" out="c.calt"/>
+          <Substitution in="cent" out="cent.calt"/>
+          <Substitution in="divide" out="divide.calt"/>
+          <Substitution in="equal" out="equal.calt"/>
+          <Substitution in="eth" out="eth.calt"/>
+          <Substitution in="f" out="f.calt"/>
+          <Substitution in="g" out="g.calt"/>
+          <Substitution in="greaterequal" out="greaterequal.calt"/>
+          <Substitution in="guillemotleft" out="guillemotleft.calt"/>
+          <Substitution in="guillemotright" out="guillemotright.calt"/>
+          <Substitution in="guilsinglleft" out="guilsinglleft.calt"/>
+          <Substitution in="guilsinglright" out="guilsinglright.calt"/>
+          <Substitution in="i" out="i.calt"/>
+          <Substitution in="j" out="j.calt"/>
+          <Substitution in="k" out="k.calt"/>
+          <Substitution in="l" out="l.calt"/>
+          <Substitution in="lessequal" out="lessequal.calt"/>
+          <Substitution in="minus" out="minus.calt"/>
+          <Substitution in="multiply" out="multiply.calt"/>
+          <Substitution in="notequal" out="notequal.calt"/>
+          <Substitution in="numbersign" out="numbersign.calt"/>
+          <Substitution in="plus" out="plus.calt"/>
+          <Substitution in="plusminus" out="plusminus.calt"/>
+          <Substitution in="r" out="r.calt"/>
+          <Substitution in="t" out="t.calt"/>
+          <Substitution in="v" out="v.calt"/>
+          <Substitution in="y" out="y.calt"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="1">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="G" out="G.001"/>
+          <Substitution in="g" out="g.001"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="2">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="bar" out="bar"/>
+          <Substitution in="bracketleft" out="bracketleft"/>
+          <Substitution in="bracketright" out="bracketright"/>
+          <Substitution in="bullet" out="bullet"/>
+          <Substitution in="eight" out="eight.onum"/>
+          <Substitution in="five" out="five.onum"/>
+          <Substitution in="four" out="four.onum"/>
+          <Substitution in="nine" out="nine.onum"/>
+          <Substitution in="one" out="one.onum"/>
+          <Substitution in="parenleft" out="parenleft"/>
+          <Substitution in="parenright" out="parenright"/>
+          <Substitution in="seven" out="seven.onum"/>
+          <Substitution in="six" out="six.onum"/>
+          <Substitution in="slash" out="slash"/>
+          <Substitution in="three" out="three.onum"/>
+          <Substitution in="two" out="two.onum"/>
+          <Substitution in="zero" out="zero.onum"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="3">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="a" out="a.sc"/>
+          <Substitution in="aacute" out="aacute.sc"/>
+          <Substitution in="abreve" out="abreve.sc"/>
+          <Substitution in="acircumflex" out="acircumflex.sc"/>
+          <Substitution in="adieresis" out="adieresis.sc"/>
+          <Substitution in="ae" out="ae.sc"/>
+          <Substitution in="aeacute" out="aeacute.sc"/>
+          <Substitution in="agrave" out="agrave.sc"/>
+          <Substitution in="amacron" out="amacron.sc"/>
+          <Substitution in="aogonek" out="aogonek.sc"/>
+          <Substitution in="aring" out="aring.sc"/>
+          <Substitution in="aringacute" out="aringacute.sc"/>
+          <Substitution in="atilde" out="atilde.sc"/>
+          <Substitution in="b" out="b.sc"/>
+          <Substitution in="c" out="c.sc"/>
+          <Substitution in="c.calt" out="c.sc"/>
+          <Substitution in="cacute" out="cacute.sc"/>
+          <Substitution in="ccaron" out="ccaron.sc"/>
+          <Substitution in="ccedilla" out="ccedilla.sc"/>
+          <Substitution in="ccircumflex" out="ccircumflex.sc"/>
+          <Substitution in="cdotaccent" out="cdotaccent.sc"/>
+          <Substitution in="d" out="d.sc"/>
+          <Substitution in="dcaron" out="dcaron.sc"/>
+          <Substitution in="dcroat" out="dcroat.sc"/>
+          <Substitution in="e" out="e.sc"/>
+          <Substitution in="eacute" out="eacute.sc"/>
+          <Substitution in="ebreve" out="ebreve.sc"/>
+          <Substitution in="ecaron" out="ecaron.sc"/>
+          <Substitution in="ecircumflex" out="ecircumflex.sc"/>
+          <Substitution in="edieresis" out="edieresis.sc"/>
+          <Substitution in="edotaccent" out="edotaccent.sc"/>
+          <Substitution in="egrave" out="egrave.sc"/>
+          <Substitution in="emacron" out="emacron.sc"/>
+          <Substitution in="eng" out="eng.sc"/>
+          <Substitution in="eogonek" out="eogonek.sc"/>
+          <Substitution in="eth" out="eth.sc"/>
+          <Substitution in="f" out="f.sc"/>
+          <Substitution in="f.001.bi" out="f.sc"/>
+          <Substitution in="f.bi" out="f.sc"/>
+          <Substitution in="f.calt" out="f.sc"/>
+          <Substitution in="g" out="g.sc"/>
+          <Substitution in="g.001" out="g.sc"/>
+          <Substitution in="g.calt" out="g.sc"/>
+          <Substitution in="gbreve" out="gbreve.sc"/>
+          <Substitution in="gcircumflex" out="gcircumflex.sc"/>
+          <Substitution in="gcommaaccent" out="gcommaaccent.sc"/>
+          <Substitution in="gdotaccent" out="gdotaccent.sc"/>
+          <Substitution in="h" out="h.sc"/>
+          <Substitution in="hbar" out="hbar.sc"/>
+          <Substitution in="hcircumflex" out="hcircumflex.sc"/>
+          <Substitution in="i" out="i.sc"/>
+          <Substitution in="i.001.bi" out="i.sc"/>
+          <Substitution in="i.002.bi" out="i.sc"/>
+          <Substitution in="i.bi" out="i.sc"/>
+          <Substitution in="i.calt" out="i.sc"/>
+          <Substitution in="iacute" out="iacute.sc"/>
+          <Substitution in="ibreve" out="ibreve.sc"/>
+          <Substitution in="icircumflex" out="icircumflex.sc"/>
+          <Substitution in="idieresis" out="idieresis.sc"/>
+          <Substitution in="igrave" out="igrave.sc"/>
+          <Substitution in="imacron" out="imacron.sc"/>
+          <Substitution in="iogonek" out="iogonek.sc"/>
+          <Substitution in="itilde" out="itilde.sc"/>
+          <Substitution in="j" out="j.sc"/>
+          <Substitution in="j.001.bi" out="J.bi.sc"/>
+          <Substitution in="j.bi" out="J.bi.sc"/>
+          <Substitution in="j.calt" out="j.sc"/>
+          <Substitution in="jcircumflex" out="jcircumflex.sc"/>
+          <Substitution in="k" out="k.sc"/>
+          <Substitution in="k.calt" out="k.sc"/>
+          <Substitution in="kcommaaccent" out="kcommaaccent.sc"/>
+          <Substitution in="l" out="l.sc"/>
+          <Substitution in="l.001.bi" out="l.sc"/>
+          <Substitution in="l.002.bi" out="l.sc"/>
+          <Substitution in="l.003.bi" out="l.sc"/>
+          <Substitution in="l.bi" out="l.sc"/>
+          <Substitution in="l.calt" out="l.sc"/>
+          <Substitution in="lacute" out="lacute.sc"/>
+          <Substitution in="lcaron" out="lcaron.sc"/>
+          <Substitution in="lcommaaccent" out="lcommaaccent.sc"/>
+          <Substitution in="lslash" out="lslash.sc"/>
+          <Substitution in="m" out="m.sc"/>
+          <Substitution in="m.tri" out="M.tri.sc"/>
+          <Substitution in="n" out="n.sc"/>
+          <Substitution in="nacute" out="nacute.sc"/>
+          <Substitution in="ncaron" out="ncaron.sc"/>
+          <Substitution in="ncommaaccent" out="ncommaaccent.sc"/>
+          <Substitution in="ntilde" out="ntilde.sc"/>
+          <Substitution in="o" out="o.sc"/>
+          <Substitution in="oacute" out="oacute.sc"/>
+          <Substitution in="obreve" out="obreve.sc"/>
+          <Substitution in="ocircumflex" out="ocircumflex.sc"/>
+          <Substitution in="odieresis" out="odieresis.sc"/>
+          <Substitution in="oe" out="oe.sc"/>
+          <Substitution in="ograve" out="ograve.sc"/>
+          <Substitution in="ohungarumlaut" out="ohungarumlaut.sc"/>
+          <Substitution in="omacron" out="omacron.sc"/>
+          <Substitution in="oslash" out="oslash.sc"/>
+          <Substitution in="oslashacute" out="oslashacute.sc"/>
+          <Substitution in="otilde" out="otilde.sc"/>
+          <Substitution in="p" out="p.sc"/>
+          <Substitution in="q" out="q.sc"/>
+          <Substitution in="r" out="r.sc"/>
+          <Substitution in="r.001.bi" out="r.sc"/>
+          <Substitution in="r.bi" out="r.sc"/>
+          <Substitution in="r.calt" out="r.sc"/>
+          <Substitution in="racute" out="racute.sc"/>
+          <Substitution in="rcaron" out="rcaron.sc"/>
+          <Substitution in="rcommaaccent" out="rcommaaccent.sc"/>
+          <Substitution in="s" out="s.sc"/>
+          <Substitution in="sacute" out="sacute.sc"/>
+          <Substitution in="scaron" out="scaron.sc"/>
+          <Substitution in="scedilla" out="scedilla.sc"/>
+          <Substitution in="scircumflex" out="scircumflex.sc"/>
+          <Substitution in="scommaaccent" out="scommaaccent.sc"/>
+          <Substitution in="t" out="t.sc"/>
+          <Substitution in="t.bi" out="t.sc"/>
+          <Substitution in="t.calt" out="t.sc"/>
+          <Substitution in="tbar" out="tbar.sc"/>
+          <Substitution in="tcaron" out="tcaron.sc"/>
+          <Substitution in="tcommaaccent" out="tcommaaccent.sc"/>
+          <Substitution in="thorn" out="thorn.sc"/>
+          <Substitution in="u" out="u.sc"/>
+          <Substitution in="uacute" out="uacute.sc"/>
+          <Substitution in="ubreve" out="ubreve.sc"/>
+          <Substitution in="ucircumflex" out="ucircumflex.sc"/>
+          <Substitution in="udieresis" out="udieresis.sc"/>
+          <Substitution in="ugrave" out="ugrave.sc"/>
+          <Substitution in="uhungarumlaut" out="uhungarumlaut.sc"/>
+          <Substitution in="umacron" out="umacron.sc"/>
+          <Substitution in="uogonek" out="uogonek.sc"/>
+          <Substitution in="uring" out="uring.sc"/>
+          <Substitution in="utilde" out="utilde.sc"/>
+          <Substitution in="v" out="v.sc"/>
+          <Substitution in="v.titl" out="v.sc"/>
+          <Substitution in="w" out="w.sc"/>
+          <Substitution in="w.002" out="W.titl.sc"/>
+          <Substitution in="w.titl" out="W.titl.sc"/>
+          <Substitution in="w.tri" out="W.tri.sc"/>
+          <Substitution in="wacute" out="wacute.sc"/>
+          <Substitution in="wcircumflex" out="wcircumflex.sc"/>
+          <Substitution in="wdieresis" out="wdieresis.sc"/>
+          <Substitution in="wgrave" out="wgrave.sc"/>
+          <Substitution in="x" out="x.sc"/>
+          <Substitution in="y" out="y.sc"/>
+          <Substitution in="yacute" out="yacute.sc"/>
+          <Substitution in="ycircumflex" out="ycircumflex.sc"/>
+          <Substitution in="ydieresis" out="ydieresis.sc"/>
+          <Substitution in="ygrave" out="ygrave.sc"/>
+          <Substitution in="z" out="z.sc"/>
+          <Substitution in="zacute" out="zacute.sc"/>
+          <Substitution in="zcaron" out="zcaron.sc"/>
+          <Substitution in="zdotaccent" out="zdotaccent.sc"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="4">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="I">
+            <Ligature components="J" glyph="I_J"/>
+          </LigatureSet>
+          <LigatureSet glyph="L">
+            <Ligature components="I" glyph="L_I"/>
+          </LigatureSet>
+          <LigatureSet glyph="c">
+            <Ligature components="k" glyph="c_k"/>
+            <Ligature components="t" glyph="c_t"/>
+          </LigatureSet>
+          <LigatureSet glyph="p">
+            <Ligature components="t" glyph="p_t"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="5">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="f">
+            <Ligature components="f,i" glyph="f_f_i"/>
+            <Ligature components="i" glyph="f_i"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="6">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="f">
+            <Ligature components="f,b" glyph="f_f_b"/>
+            <Ligature components="f,l" glyph="f_f_l"/>
+            <Ligature components="l" glyph="f_l"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="7">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="W" out="W.titl"/>
+          <Substitution in="ampersand" out="ampersand.alt"/>
+          <Substitution in="v" out="v.titl"/>
+          <Substitution in="w" out="w.titl"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="8">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="1">
+          <Substitution in="I" out="I.swsh"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="9">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="I" out="I.bi"/>
+          <Substitution in="J" out="J.bi"/>
+          <Substitution in="colon" out="colon.bi"/>
+          <Substitution in="comma" out="comma.bi"/>
+          <Substitution in="exclam" out="exclam.bi"/>
+          <Substitution in="f" out="f.bi"/>
+          <Substitution in="i" out="i.bi"/>
+          <Substitution in="j" out="j.bi"/>
+          <Substitution in="l" out="l.bi"/>
+          <Substitution in="period" out="period.bi"/>
+          <Substitution in="r" out="r.bi"/>
+          <Substitution in="semicolon" out="semicolon.bi"/>
+          <Substitution in="space" out="space.bi"/>
+          <Substitution in="t" out="t.bi"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="10">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="M" out="M.tri"/>
+          <Substitution in="W" out="W.tri"/>
+          <Substitution in="m" out="m.tri"/>
+          <Substitution in="w" out="w.tri"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="11">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="bar" out="bar"/>
+          <Substitution in="bracketleft" out="bracketleft"/>
+          <Substitution in="bracketright" out="bracketright"/>
+          <Substitution in="bullet" out="bullet"/>
+          <Substitution in="eight" out="eight.circle.black"/>
+          <Substitution in="five" out="five.circle.black"/>
+          <Substitution in="four" out="four.circle.black"/>
+          <Substitution in="nine" out="nine.circle.black"/>
+          <Substitution in="one" out="one.circle.black"/>
+          <Substitution in="parenleft" out="parenleft"/>
+          <Substitution in="parenright" out="parenright"/>
+          <Substitution in="seven" out="seven.circle.black"/>
+          <Substitution in="six" out="six.circle.black"/>
+          <Substitution in="slash" out="circle.black"/>
+          <Substitution in="three" out="three.circle.black"/>
+          <Substitution in="two" out="two.circle.black"/>
+          <Substitution in="zero" out="zero.circle.black"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="12">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="bar" out="bar"/>
+          <Substitution in="bracketleft" out="bracketleft"/>
+          <Substitution in="bracketright" out="bracketright"/>
+          <Substitution in="bullet" out="bullet"/>
+          <Substitution in="eight" out="eight.circle.white"/>
+          <Substitution in="five" out="five.circle.white"/>
+          <Substitution in="four" out="four.circle.white"/>
+          <Substitution in="nine" out="nine.circle.white"/>
+          <Substitution in="one" out="one.circle.white"/>
+          <Substitution in="parenleft" out="parenleft"/>
+          <Substitution in="parenright" out="parenright"/>
+          <Substitution in="seven" out="seven.circle.white"/>
+          <Substitution in="six" out="six.circle.white"/>
+          <Substitution in="slash" out="circle.white"/>
+          <Substitution in="three" out="three.circle.white"/>
+          <Substitution in="two" out="two.circle.white"/>
+          <Substitution in="zero" out="zero.circle.white"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="13">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="bar" out="bar.white"/>
+          <Substitution in="bracketleft" out="cornersleft.white"/>
+          <Substitution in="bracketright" out="cornersright.white"/>
+          <Substitution in="bullet" out="bullet.white"/>
+          <Substitution in="eight" out="eight.small.white"/>
+          <Substitution in="five" out="five.small.white"/>
+          <Substitution in="four" out="four.small.white"/>
+          <Substitution in="nine" out="nine.small.white"/>
+          <Substitution in="one" out="one.small.white"/>
+          <Substitution in="parenleft" out="roundedcornersleft.white"/>
+          <Substitution in="parenright" out="roundedcornersright.white"/>
+          <Substitution in="seven" out="seven.small.white"/>
+          <Substitution in="six" out="six.small.white"/>
+          <Substitution in="slash" out="rectangle.white"/>
+          <Substitution in="three" out="three.small.white"/>
+          <Substitution in="two" out="two.small.white"/>
+          <Substitution in="zero" out="zero.small.white"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="14">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="bar" out="bar.black"/>
+          <Substitution in="bracketleft" out="cornersleft.black"/>
+          <Substitution in="bracketright" out="cornersright.black"/>
+          <Substitution in="bullet" out="bullet.black"/>
+          <Substitution in="eight" out="eight.small.black"/>
+          <Substitution in="five" out="five.small.black"/>
+          <Substitution in="four" out="four.small.black"/>
+          <Substitution in="nine" out="nine.small.black"/>
+          <Substitution in="one" out="one.small.black"/>
+          <Substitution in="parenleft" out="roundedcornersleft.black"/>
+          <Substitution in="parenright" out="roundedcornersright.black"/>
+          <Substitution in="seven" out="seven.small.black"/>
+          <Substitution in="six" out="six.small.black"/>
+          <Substitution in="slash" out="rectangle.black"/>
+          <Substitution in="three" out="three.small.black"/>
+          <Substitution in="two" out="two.small.black"/>
+          <Substitution in="zero" out="zero.small.black"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="15">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="bar" out="bar"/>
+          <Substitution in="bracketleft" out="bracketleft"/>
+          <Substitution in="bracketright" out="bracketright"/>
+          <Substitution in="bullet" out="bullet"/>
+          <Substitution in="eight" out="eight.halfcircleleft.wt"/>
+          <Substitution in="five" out="five.halfcircleleft.wt"/>
+          <Substitution in="four" out="four.halfcircleleft.wt"/>
+          <Substitution in="nine" out="nine.halfcircleleft.wt"/>
+          <Substitution in="one" out="one.halfcircleleft.wt"/>
+          <Substitution in="parenleft" out="parenleft"/>
+          <Substitution in="parenright" out="parenright"/>
+          <Substitution in="seven" out="seven.halfcircleleft.wt"/>
+          <Substitution in="six" out="six.halfcircleleft.wt"/>
+          <Substitution in="slash" out="halfcircleleft.wt"/>
+          <Substitution in="three" out="three.halfcircleleft.wt"/>
+          <Substitution in="two" out="two.halfcircleleft.wt"/>
+          <Substitution in="zero" out="zero.halfcircleleft.wt"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="16">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=5 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="2">
+            <Glyph value="bar"/>
+            <Glyph value="bullet"/>
+            <Glyph value="bracketleft"/>
+            <Glyph value="bracketright"/>
+            <Glyph value="parenleft"/>
+            <Glyph value="parenright"/>
+            <Glyph value="halfcircleleft.wt"/>
+            <Glyph value="zero.halfcircleleft.wt"/>
+            <Glyph value="one.halfcircleleft.wt"/>
+            <Glyph value="two.halfcircleleft.wt"/>
+            <Glyph value="three.halfcircleleft.wt"/>
+            <Glyph value="four.halfcircleleft.wt"/>
+            <Glyph value="five.halfcircleleft.wt"/>
+            <Glyph value="six.halfcircleleft.wt"/>
+            <Glyph value="seven.halfcircleleft.wt"/>
+            <Glyph value="eight.halfcircleleft.wt"/>
+            <Glyph value="nine.halfcircleleft.wt"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0" Format="1">
+            <Glyph value="space"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="19"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="1" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="2">
+            <Glyph value="roundedcornersleft.white"/>
+            <Glyph value="roundedcornersright.white"/>
+            <Glyph value="cornersleft.white"/>
+            <Glyph value="cornersright.white"/>
+            <Glyph value="bar.white"/>
+            <Glyph value="rectangle.white"/>
+            <Glyph value="zero.small.white"/>
+            <Glyph value="one.small.white"/>
+            <Glyph value="two.small.white"/>
+            <Glyph value="three.small.white"/>
+            <Glyph value="four.small.white"/>
+            <Glyph value="five.small.white"/>
+            <Glyph value="six.small.white"/>
+            <Glyph value="seven.small.white"/>
+            <Glyph value="eight.small.white"/>
+            <Glyph value="nine.small.white"/>
+            <Glyph value="bullet.white"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0" Format="1">
+            <Glyph value="space"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="19"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="2" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="2">
+            <Glyph value="bar"/>
+            <Glyph value="bullet"/>
+            <Glyph value="bracketleft"/>
+            <Glyph value="bracketright"/>
+            <Glyph value="parenleft"/>
+            <Glyph value="parenright"/>
+            <Glyph value="halfcircleleft.wt"/>
+            <Glyph value="zero.halfcircleleft.wt"/>
+            <Glyph value="one.halfcircleleft.wt"/>
+            <Glyph value="two.halfcircleleft.wt"/>
+            <Glyph value="three.halfcircleleft.wt"/>
+            <Glyph value="four.halfcircleleft.wt"/>
+            <Glyph value="five.halfcircleleft.wt"/>
+            <Glyph value="six.halfcircleleft.wt"/>
+            <Glyph value="seven.halfcircleleft.wt"/>
+            <Glyph value="eight.halfcircleleft.wt"/>
+            <Glyph value="nine.halfcircleleft.wt"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="2">
+            <Glyph value="bar"/>
+            <Glyph value="bullet"/>
+            <Glyph value="bracketleft"/>
+            <Glyph value="bracketright"/>
+            <Glyph value="parenleft"/>
+            <Glyph value="parenright"/>
+            <Glyph value="halfcircleleft.wt"/>
+            <Glyph value="zero.halfcircleleft.wt"/>
+            <Glyph value="one.halfcircleleft.wt"/>
+            <Glyph value="two.halfcircleleft.wt"/>
+            <Glyph value="three.halfcircleleft.wt"/>
+            <Glyph value="four.halfcircleleft.wt"/>
+            <Glyph value="five.halfcircleleft.wt"/>
+            <Glyph value="six.halfcircleleft.wt"/>
+            <Glyph value="seven.halfcircleleft.wt"/>
+            <Glyph value="eight.halfcircleleft.wt"/>
+            <Glyph value="nine.halfcircleleft.wt"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="20"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="3" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="2">
+            <Glyph value="roundedcornersleft.white"/>
+            <Glyph value="roundedcornersright.white"/>
+            <Glyph value="cornersleft.white"/>
+            <Glyph value="cornersright.white"/>
+            <Glyph value="bar.white"/>
+            <Glyph value="rectangle.white"/>
+            <Glyph value="zero.small.white"/>
+            <Glyph value="one.small.white"/>
+            <Glyph value="two.small.white"/>
+            <Glyph value="three.small.white"/>
+            <Glyph value="four.small.white"/>
+            <Glyph value="five.small.white"/>
+            <Glyph value="six.small.white"/>
+            <Glyph value="seven.small.white"/>
+            <Glyph value="eight.small.white"/>
+            <Glyph value="nine.small.white"/>
+            <Glyph value="bullet.white"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="2">
+            <Glyph value="roundedcornersleft.white"/>
+            <Glyph value="roundedcornersright.white"/>
+            <Glyph value="cornersleft.white"/>
+            <Glyph value="cornersright.white"/>
+            <Glyph value="bar.white"/>
+            <Glyph value="rectangle.white"/>
+            <Glyph value="zero.small.white"/>
+            <Glyph value="one.small.white"/>
+            <Glyph value="two.small.white"/>
+            <Glyph value="three.small.white"/>
+            <Glyph value="four.small.white"/>
+            <Glyph value="five.small.white"/>
+            <Glyph value="six.small.white"/>
+            <Glyph value="seven.small.white"/>
+            <Glyph value="eight.small.white"/>
+            <Glyph value="nine.small.white"/>
+            <Glyph value="bullet.white"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="19"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="4" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="2">
+            <Glyph value="roundedcornersleft.white"/>
+            <Glyph value="roundedcornersright.white"/>
+            <Glyph value="cornersleft.white"/>
+            <Glyph value="cornersright.white"/>
+            <Glyph value="bar.white"/>
+            <Glyph value="rectangle.white"/>
+            <Glyph value="zero.small.white"/>
+            <Glyph value="one.small.white"/>
+            <Glyph value="two.small.white"/>
+            <Glyph value="three.small.white"/>
+            <Glyph value="four.small.white"/>
+            <Glyph value="five.small.white"/>
+            <Glyph value="six.small.white"/>
+            <Glyph value="seven.small.white"/>
+            <Glyph value="eight.small.white"/>
+            <Glyph value="nine.small.white"/>
+            <Glyph value="bullet.white"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="2">
+            <Glyph value="bar"/>
+            <Glyph value="bullet"/>
+            <Glyph value="bracketleft"/>
+            <Glyph value="bracketright"/>
+            <Glyph value="parenleft"/>
+            <Glyph value="parenright"/>
+            <Glyph value="halfcircleleft.wt"/>
+            <Glyph value="zero.halfcircleleft.wt"/>
+            <Glyph value="one.halfcircleleft.wt"/>
+            <Glyph value="two.halfcircleleft.wt"/>
+            <Glyph value="three.halfcircleleft.wt"/>
+            <Glyph value="four.halfcircleleft.wt"/>
+            <Glyph value="five.halfcircleleft.wt"/>
+            <Glyph value="six.halfcircleleft.wt"/>
+            <Glyph value="seven.halfcircleleft.wt"/>
+            <Glyph value="eight.halfcircleleft.wt"/>
+            <Glyph value="nine.halfcircleleft.wt"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="20"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="17">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="bar" out="bar"/>
+          <Substitution in="bracketleft" out="bracketleft"/>
+          <Substitution in="bracketright" out="bracketright"/>
+          <Substitution in="bullet" out="bullet"/>
+          <Substitution in="eight" out="eight.halfcircleleft.bl"/>
+          <Substitution in="five" out="five.halfcircleleft.bl"/>
+          <Substitution in="four" out="four.halfcircleleft.bl"/>
+          <Substitution in="nine" out="nine.halfcircleleft.bl"/>
+          <Substitution in="one" out="one.halfcircleleft.bl"/>
+          <Substitution in="parenleft" out="parenleft"/>
+          <Substitution in="parenright" out="parenright"/>
+          <Substitution in="seven" out="seven.halfcircleleft.bl"/>
+          <Substitution in="six" out="six.halfcircleleft.bl"/>
+          <Substitution in="slash" out="halfcircleleft.bl"/>
+          <Substitution in="three" out="three.halfcircleleft.bl"/>
+          <Substitution in="two" out="two.halfcircleleft.bl"/>
+          <Substitution in="zero" out="zero.halfcircleleft.bl"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="18">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=5 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="2">
+            <Glyph value="bar"/>
+            <Glyph value="bullet"/>
+            <Glyph value="bracketleft"/>
+            <Glyph value="bracketright"/>
+            <Glyph value="parenleft"/>
+            <Glyph value="parenright"/>
+            <Glyph value="halfcircleleft.bl"/>
+            <Glyph value="zero.halfcircleleft.bl"/>
+            <Glyph value="one.halfcircleleft.bl"/>
+            <Glyph value="two.halfcircleleft.bl"/>
+            <Glyph value="three.halfcircleleft.bl"/>
+            <Glyph value="four.halfcircleleft.bl"/>
+            <Glyph value="five.halfcircleleft.bl"/>
+            <Glyph value="six.halfcircleleft.bl"/>
+            <Glyph value="seven.halfcircleleft.bl"/>
+            <Glyph value="eight.halfcircleleft.bl"/>
+            <Glyph value="nine.halfcircleleft.bl"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0" Format="1">
+            <Glyph value="space"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="19"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="1" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="2">
+            <Glyph value="roundedcornersleft.black"/>
+            <Glyph value="roundedcornersright.black"/>
+            <Glyph value="cornersleft.black"/>
+            <Glyph value="cornersright.black"/>
+            <Glyph value="bar.black"/>
+            <Glyph value="rectangle.black"/>
+            <Glyph value="zero.small.black"/>
+            <Glyph value="one.small.black"/>
+            <Glyph value="two.small.black"/>
+            <Glyph value="three.small.black"/>
+            <Glyph value="four.small.black"/>
+            <Glyph value="five.small.black"/>
+            <Glyph value="six.small.black"/>
+            <Glyph value="seven.small.black"/>
+            <Glyph value="eight.small.black"/>
+            <Glyph value="nine.small.black"/>
+            <Glyph value="bullet.black"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0" Format="1">
+            <Glyph value="space"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="19"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="2" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="2">
+            <Glyph value="bar"/>
+            <Glyph value="bullet"/>
+            <Glyph value="bracketleft"/>
+            <Glyph value="bracketright"/>
+            <Glyph value="parenleft"/>
+            <Glyph value="parenright"/>
+            <Glyph value="halfcircleleft.bl"/>
+            <Glyph value="zero.halfcircleleft.bl"/>
+            <Glyph value="one.halfcircleleft.bl"/>
+            <Glyph value="two.halfcircleleft.bl"/>
+            <Glyph value="three.halfcircleleft.bl"/>
+            <Glyph value="four.halfcircleleft.bl"/>
+            <Glyph value="five.halfcircleleft.bl"/>
+            <Glyph value="six.halfcircleleft.bl"/>
+            <Glyph value="seven.halfcircleleft.bl"/>
+            <Glyph value="eight.halfcircleleft.bl"/>
+            <Glyph value="nine.halfcircleleft.bl"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="2">
+            <Glyph value="bar"/>
+            <Glyph value="bullet"/>
+            <Glyph value="bracketleft"/>
+            <Glyph value="bracketright"/>
+            <Glyph value="parenleft"/>
+            <Glyph value="parenright"/>
+            <Glyph value="halfcircleleft.bl"/>
+            <Glyph value="zero.halfcircleleft.bl"/>
+            <Glyph value="one.halfcircleleft.bl"/>
+            <Glyph value="two.halfcircleleft.bl"/>
+            <Glyph value="three.halfcircleleft.bl"/>
+            <Glyph value="four.halfcircleleft.bl"/>
+            <Glyph value="five.halfcircleleft.bl"/>
+            <Glyph value="six.halfcircleleft.bl"/>
+            <Glyph value="seven.halfcircleleft.bl"/>
+            <Glyph value="eight.halfcircleleft.bl"/>
+            <Glyph value="nine.halfcircleleft.bl"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="21"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="3" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="2">
+            <Glyph value="roundedcornersleft.black"/>
+            <Glyph value="roundedcornersright.black"/>
+            <Glyph value="cornersleft.black"/>
+            <Glyph value="cornersright.black"/>
+            <Glyph value="bar.black"/>
+            <Glyph value="rectangle.black"/>
+            <Glyph value="zero.small.black"/>
+            <Glyph value="one.small.black"/>
+            <Glyph value="two.small.black"/>
+            <Glyph value="three.small.black"/>
+            <Glyph value="four.small.black"/>
+            <Glyph value="five.small.black"/>
+            <Glyph value="six.small.black"/>
+            <Glyph value="seven.small.black"/>
+            <Glyph value="eight.small.black"/>
+            <Glyph value="nine.small.black"/>
+            <Glyph value="bullet.black"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="2">
+            <Glyph value="roundedcornersleft.black"/>
+            <Glyph value="roundedcornersright.black"/>
+            <Glyph value="cornersleft.black"/>
+            <Glyph value="cornersright.black"/>
+            <Glyph value="bar.black"/>
+            <Glyph value="rectangle.black"/>
+            <Glyph value="zero.small.black"/>
+            <Glyph value="one.small.black"/>
+            <Glyph value="two.small.black"/>
+            <Glyph value="three.small.black"/>
+            <Glyph value="four.small.black"/>
+            <Glyph value="five.small.black"/>
+            <Glyph value="six.small.black"/>
+            <Glyph value="seven.small.black"/>
+            <Glyph value="eight.small.black"/>
+            <Glyph value="nine.small.black"/>
+            <Glyph value="bullet.black"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="19"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="4" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="2">
+            <Glyph value="roundedcornersleft.black"/>
+            <Glyph value="roundedcornersright.black"/>
+            <Glyph value="cornersleft.black"/>
+            <Glyph value="cornersright.black"/>
+            <Glyph value="bar.black"/>
+            <Glyph value="rectangle.black"/>
+            <Glyph value="zero.small.black"/>
+            <Glyph value="one.small.black"/>
+            <Glyph value="two.small.black"/>
+            <Glyph value="three.small.black"/>
+            <Glyph value="four.small.black"/>
+            <Glyph value="five.small.black"/>
+            <Glyph value="six.small.black"/>
+            <Glyph value="seven.small.black"/>
+            <Glyph value="eight.small.black"/>
+            <Glyph value="nine.small.black"/>
+            <Glyph value="bullet.black"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="2">
+            <Glyph value="bar"/>
+            <Glyph value="bullet"/>
+            <Glyph value="bracketleft"/>
+            <Glyph value="bracketright"/>
+            <Glyph value="parenleft"/>
+            <Glyph value="parenright"/>
+            <Glyph value="halfcircleleft.bl"/>
+            <Glyph value="zero.halfcircleleft.bl"/>
+            <Glyph value="one.halfcircleleft.bl"/>
+            <Glyph value="two.halfcircleleft.bl"/>
+            <Glyph value="three.halfcircleleft.bl"/>
+            <Glyph value="four.halfcircleleft.bl"/>
+            <Glyph value="five.halfcircleleft.bl"/>
+            <Glyph value="six.halfcircleleft.bl"/>
+            <Glyph value="seven.halfcircleleft.bl"/>
+            <Glyph value="eight.halfcircleleft.bl"/>
+            <Glyph value="nine.halfcircleleft.bl"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="21"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="19">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="bar" out="bar"/>
+          <Substitution in="bar.black" out="bar"/>
+          <Substitution in="bar.white" out="bar"/>
+          <Substitution in="bracketleft" out="bracketleft"/>
+          <Substitution in="bracketright" out="bracketright"/>
+          <Substitution in="bullet" out="bullet"/>
+          <Substitution in="bullet.black" out="bullet"/>
+          <Substitution in="bullet.white" out="bullet"/>
+          <Substitution in="cornersleft.black" out="bracketleft"/>
+          <Substitution in="cornersleft.white" out="bracketleft"/>
+          <Substitution in="cornersright.black" out="bracketright"/>
+          <Substitution in="cornersright.white" out="bracketright"/>
+          <Substitution in="eight.halfcircleleft.bl" out="eight.halfcircleright.bl"/>
+          <Substitution in="eight.halfcircleleft.wt" out="eight.halfcircleright.wt"/>
+          <Substitution in="eight.small.black" out="eight.halfcircleright.bl"/>
+          <Substitution in="eight.small.white" out="eight.halfcircleright.wt"/>
+          <Substitution in="five.halfcircleleft.bl" out="five.halfcircleright.bl"/>
+          <Substitution in="five.halfcircleleft.wt" out="five.halfcircleright.wt"/>
+          <Substitution in="five.small.black" out="five.halfcircleright.bl"/>
+          <Substitution in="five.small.white" out="five.halfcircleright.wt"/>
+          <Substitution in="four.halfcircleleft.bl" out="four.halfcircleright.bl"/>
+          <Substitution in="four.halfcircleleft.wt" out="four.halfcircleright.wt"/>
+          <Substitution in="four.small.black" out="four.halfcircleright.bl"/>
+          <Substitution in="four.small.white" out="four.halfcircleright.wt"/>
+          <Substitution in="halfcircleleft.bl" out="halfcircleright.bl"/>
+          <Substitution in="halfcircleleft.wt" out="halfcircleright.wt"/>
+          <Substitution in="nine.halfcircleleft.bl" out="nine.halfcircleright.bl"/>
+          <Substitution in="nine.halfcircleleft.wt" out="nine.halfcircleright.wt"/>
+          <Substitution in="nine.small.black" out="nine.halfcircleright.bl"/>
+          <Substitution in="nine.small.white" out="nine.halfcircleright.wt"/>
+          <Substitution in="one.halfcircleleft.bl" out="one.halfcircleright.bl"/>
+          <Substitution in="one.halfcircleleft.wt" out="one.halfcircleright.wt"/>
+          <Substitution in="one.small.black" out="one.halfcircleright.bl"/>
+          <Substitution in="one.small.white" out="one.halfcircleright.wt"/>
+          <Substitution in="parenleft" out="parenleft"/>
+          <Substitution in="parenright" out="parenright"/>
+          <Substitution in="rectangle.black" out="halfcircleright.bl"/>
+          <Substitution in="rectangle.white" out="halfcircleright.wt"/>
+          <Substitution in="roundedcornersleft.black" out="parenleft"/>
+          <Substitution in="roundedcornersleft.white" out="parenleft"/>
+          <Substitution in="roundedcornersright.black" out="parenright"/>
+          <Substitution in="roundedcornersright.white" out="parenright"/>
+          <Substitution in="seven.halfcircleleft.bl" out="seven.halfcircleright.bl"/>
+          <Substitution in="seven.halfcircleleft.wt" out="seven.halfcircleright.wt"/>
+          <Substitution in="seven.small.black" out="seven.halfcircleright.bl"/>
+          <Substitution in="seven.small.white" out="seven.halfcircleright.wt"/>
+          <Substitution in="six.halfcircleleft.bl" out="six.halfcircleright.bl"/>
+          <Substitution in="six.halfcircleleft.wt" out="six.halfcircleright.wt"/>
+          <Substitution in="six.small.black" out="six.halfcircleright.bl"/>
+          <Substitution in="six.small.white" out="six.halfcircleright.wt"/>
+          <Substitution in="three.halfcircleleft.bl" out="three.halfcircleright.bl"/>
+          <Substitution in="three.halfcircleleft.wt" out="three.halfcircleright.wt"/>
+          <Substitution in="three.small.black" out="three.halfcircleright.bl"/>
+          <Substitution in="three.small.white" out="three.halfcircleright.wt"/>
+          <Substitution in="two.halfcircleleft.bl" out="two.halfcircleright.bl"/>
+          <Substitution in="two.halfcircleleft.wt" out="two.halfcircleright.wt"/>
+          <Substitution in="two.small.black" out="two.halfcircleright.bl"/>
+          <Substitution in="two.small.white" out="two.halfcircleright.wt"/>
+          <Substitution in="zero.halfcircleleft.bl" out="zero.halfcircleright.bl"/>
+          <Substitution in="zero.halfcircleleft.wt" out="zero.halfcircleright.wt"/>
+          <Substitution in="zero.small.black" out="zero.halfcircleright.bl"/>
+          <Substitution in="zero.small.white" out="zero.halfcircleright.wt"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="20">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="bar" out="bar.white"/>
+          <Substitution in="bracketleft" out="cornersleft.white"/>
+          <Substitution in="bracketright" out="cornersright.white"/>
+          <Substitution in="bullet" out="bullet.white"/>
+          <Substitution in="eight.halfcircleleft.wt" out="eight.small.white"/>
+          <Substitution in="five.halfcircleleft.wt" out="five.small.white"/>
+          <Substitution in="four.halfcircleleft.wt" out="four.small.white"/>
+          <Substitution in="halfcircleleft.wt" out="rectangle.white"/>
+          <Substitution in="nine.halfcircleleft.wt" out="nine.small.white"/>
+          <Substitution in="one.halfcircleleft.wt" out="one.small.white"/>
+          <Substitution in="parenleft" out="roundedcornersleft.white"/>
+          <Substitution in="parenright" out="roundedcornersright.white"/>
+          <Substitution in="seven.halfcircleleft.wt" out="seven.small.white"/>
+          <Substitution in="six.halfcircleleft.wt" out="six.small.white"/>
+          <Substitution in="three.halfcircleleft.wt" out="three.small.white"/>
+          <Substitution in="two.halfcircleleft.wt" out="two.small.white"/>
+          <Substitution in="zero.halfcircleleft.wt" out="zero.small.white"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="21">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="bar" out="bar.black"/>
+          <Substitution in="bracketleft" out="cornersleft.black"/>
+          <Substitution in="bracketright" out="cornersright.black"/>
+          <Substitution in="bullet" out="bullet.black"/>
+          <Substitution in="eight.halfcircleleft.bl" out="eight.small.black"/>
+          <Substitution in="five.halfcircleleft.bl" out="five.small.black"/>
+          <Substitution in="four.halfcircleleft.bl" out="four.small.black"/>
+          <Substitution in="halfcircleleft.bl" out="rectangle.black"/>
+          <Substitution in="nine.halfcircleleft.bl" out="nine.small.black"/>
+          <Substitution in="one.halfcircleleft.bl" out="one.small.black"/>
+          <Substitution in="parenleft" out="roundedcornersleft.black"/>
+          <Substitution in="parenright" out="roundedcornersright.black"/>
+          <Substitution in="seven.halfcircleleft.bl" out="seven.small.black"/>
+          <Substitution in="six.halfcircleleft.bl" out="six.small.black"/>
+          <Substitution in="three.halfcircleleft.bl" out="three.small.black"/>
+          <Substitution in="two.halfcircleleft.bl" out="two.small.black"/>
+          <Substitution in="zero.halfcircleleft.bl" out="zero.small.black"/>
+        </SingleSubst>
+      </Lookup>
+    </LookupList>
+  </GSUB>
+
+</ttFont>
