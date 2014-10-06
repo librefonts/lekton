@@ -1,0 +1,7 @@
+commit: HEAD
+process_files: [Lekton-Regular.ttf.ttx, Lekton-Italic.ttf.ttx, Lekton-Bold.ttf.ttx,
+  src/LektonItalic004.otf.ttx, src/LektonBold034.otf.ttx, src/Lekton034.otf.ttx, src/Lekton-Regular-TTF.sfd,
+  src/Lekton-Italic-TTF.sfd, src/Lekton-Bold-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
